@@ -1,0 +1,83 @@
+git concepts
+working directory -- workspace 
+syaging area - prepare changes before commiting - Draft space 
+Local repository - project history stored in computer 
+remote repository - version of your projectr hosted on the network. allows us ot pull and push 
+branches - parallel version of the projects
+Pull - way to propose changes from one bracnh to other. reqwuest ti review 
+merging - process of integrating changes from one branch to antoher 
+
+
+git Command
+
+git config --global user.name
+git config --global user.email
+git config --list
+
+
+pshenoy in ~/Prashant/Personal/Study/Git-Github/Learn  > 
+code .  ---> Open VSCode
+touch hello.md ---> create a file hello.md
+git status --> 
+    gives error which means git is not initiliazed. To initialize git you should create a new repository
+
+First Command we run in a project 
+git init
+    Git will Start tracking now 
+
+git status --> 
+  this will show us our changes.
+  This will show us if it has been staged
+  It will also sho wwhat files are tracked by Git.
+
+git add .
+  This will add all the changes from working directory to staging area 
+
+git add <filename>
+   add file in staging area
+
+git commit -m "initial commit"
+
+If you have to get code from remote location to your desktop.
+that is called as cloning
+
+
+
+git commit -m "initial commit"
+Commits file to remote repository 
+
+
+git clone https://github.com/prashshenoy1/git-test.git
+
+If you have to get code from remote location to your desktop.
+that is called as cloning.
+Creates a local working directory of a remote repository 
+
+git branch 
+ this will show you all the branches that you have in that folder 
+
+git checkout -b update-name
+  this command will create a branch and also switch to that branch 
+
+git switch main 
+  This will swicth to main branch if that exists
+
+
+https://www.youtube.com/watch?v=NUELGzIHT-I
+
+git branch -vv
+This command lists all your local branches. For branches that are tracking a remote branch, you will see the remote branch name in square brackets:
+
+git rev-parse --abbrev-ref @{upstream}
+If you want just the name of the remote tracking branch for the branch you are currently on:
+
+
+https://www.youtube.com/watch?v=e9lnsKot_SQ -- How Git Works: Explained in 4 Minutes
+
+https://www.youtube.com/watch?v=0chZFIZLR_0 - Git MERGE vs REBASE: Everything You Need to Know
+
+
+
+
+
+
