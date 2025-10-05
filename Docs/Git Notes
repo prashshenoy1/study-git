@@ -86,6 +86,20 @@ Verify the remote URL
 git push -u origin main
 Push and set the upstream branch
 
+git commit --allow-empty-message -m "
+The -m "" flag provides an empty message from the command line, which prevents the text editor from opening.
+The --allow-empty-message flag explicitly tells Git to accept the empty commit message.
+
+
+git config --global alias.nomsg 'commit --allow-empty-message -m ""'
+git config --global alias.commmit-nomsg 'commit --allow-empty-message -m ""'
+To make this command easier to use, you can create a Git alias. An alias lets you define a shorter command for a longer one.
+
+
+git config --global --unset alias.commmit-nomsg
+How to fix alias which wa snot set properly in global config 
+
+
 
 
 https://www.youtube.com/watch?v=e9lnsKot_SQ -- How Git Works: Explained in 4 Minutes
