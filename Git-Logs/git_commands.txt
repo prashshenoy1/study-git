@@ -1,0 +1,88 @@
+git
+git --v
+git --version
+git -c core.sshCommand="ssh -oHostKeyAlgorithms=+ssh-dss -i ~/code/gtnexus/tools/bin/_fte-tools/keys/vagrant.rsa" clone --origin nearby vagrant@10.251.40.121:/mnt/net/backup/unifyrepo devl
+git -v
+git ~/code/gtnexus/tools/bin
+git add .
+git add modules/main/tradiant/release/com/tradiant/scv/exception/event/ShipmentActivityCallbackMsgHelper.java
+git branch
+git branch 
+git branch --unset-upstream
+git branch -d alpha
+git branch -d central/alpha
+git branch -D central/alpha
+git branch -d GTBUG-97968_cs3
+git branch -lvv
+git branch -r
+git branch -vv
+git brnach -lvv
+git checkout --
+git checkout -- 
+git checkout -B alpha -t central/alpha
+git checkout -b alpha central/alpha
+git checkout -b GTBUG-97968_cs3 feature/shipments-classic/GTBUG-97968_cs3
+git checkout -b GTN-42970-bigint feature/shipments-classic/GTN-42970_bigint_tt_om_cmdetail_rebase
+git checkout -b shipments-classic/GTN-42970_bigint_tt_om_cmdetail_rebase
+git checkout alpha
+git checkout GTN-42970-bigint
+git checkout production
+git commit -m "second commit"
+git commit"
+git config --global
+git config --global --get-all
+git config --global --get-all  
+git config --global --list
+git config --global -l
+git config --global eclipse.path
+git config --global eclipse.path "/Users/pshenoy/code/gtnexus/eclipse"
+git config --global init.defaultBranch main
+git config --global mergetool.p4merge.path "/Applications/p4merge.app/Contents/Resources/launchp4merge"\
+git config --global user.email "prashant.shenoy@infor.com\
+git config --global user.name "Prashant Shenoy"
+git config --replace --global "credential.https://code.gtnexus.info.username" "pshenoy"
+git config --replace --global core.editor "'$PROGRAMFILES/Notepad++/notepad++.exe' -multiInst"
+git config --replace --global core.editor nano\
+git config --replace --global credential.helper osxkeychain\
+git config --replace --global diff.tool tortoisemerge\
+git config --replace --global merge.tool araxis\
+git config core.fscache true
+git diff
+git diff-fils --ignore-submodules
+git difftool --tool=araxis
+git fetch central
+git ff-refs
+git history
+git init
+git log
+git pull --rebase
+git push
+git push -u origin main
+git push origin main 
+git rebase
+git rebase --abor
+git rebase --abort
+git rebase --skip
+git remote -v
+git remote -v show
+git remote -vv
+git remote remove origin
+git remote rm nearby
+git remove -v
+git reset --hard
+git rm --cached -f Learn/GitGoing
+git rm --cached Learn/GitGoing
+git rm --cached Learn/GitGoing\
+git rm -f --cached Learn/GitGoing\
+git stash list
+git stash save
+git statu
+git status
+git-fetach-daily
+git-fetch-daily
+git-fetch-daily 
+git-fetch-daily help
+git-getch-daily
+git-rebase
+git\
+gitk
