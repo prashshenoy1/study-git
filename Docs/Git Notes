@@ -71,6 +71,22 @@ This command lists all your local branches. For branches that are tracking a rem
 git rev-parse --abbrev-ref @{upstream}
 If you want just the name of the remote tracking branch for the branch you are currently on:
 
+git remote remove origin
+Remove the existing remote:
+
+git remote add origin https://github.com/prashshenoy1/study-git.git
+Add the new remote
+
+git remote add new_origin https://github.com/prashshenoy1/study-git.git
+Use a Different Remote Name
+
+git remote -v
+Verify the remote URL
+
+git push -u origin main
+Push and set the upstream branch
+
+
 
 https://www.youtube.com/watch?v=e9lnsKot_SQ -- How Git Works: Explained in 4 Minutes
 
